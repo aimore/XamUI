@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamUI.App">
+    <Application.Resources>
+         <!-- Font Awesome -->
+        <OnPlatform x:TypeArguments="x:String" x:Key="FontAwesome">
+            <On Platform="Android" Value="FontAwesomeSolid.otf#FontAwesomeSolid" />
+            <On Platform="iOS" Value="Font Awesome 5 Free Solid" />
+        </OnPlatform>
+        <!-- QuizUp -->
+        <OnPlatform x:TypeArguments="x:String" x:Key="QuizUpFont">
+            <On Platform="Android" Value="AvenirLTStd-Black.otf#AvenirLTStd-Black" />
+            <On Platform="iOS" Value="AvenirLTStd-Black" />
+        </OnPlatform>
+        <Color x:Key="PageBackgroundColor">#505050</Color>
+        <Color x:Key="HeaderTextColor">#cacaca</Color>
+        <Color x:Key="WhiteTextColor">#feffff</Color>
+        <Color x:Key="ContentColor">#373737</Color>
+        <Color x:Key="SectionTextColor">#535353</Color>
+        <Color x:Key="FirstTopictColor">#82f14b</Color>
+        <Color x:Key="SecondtTopicColor">#e677e0</Color>
+        <Color x:Key="ThirdTopicColor">#52b9ec</Color>
+    </Application.Resources>
+</Application>
