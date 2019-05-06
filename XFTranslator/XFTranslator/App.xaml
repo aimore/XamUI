@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XFTranslator.App">
+    <Application.Resources>
+        <OnPlatform
+            x:Key="RobotoMedium"
+            x:TypeArguments="x:String">
+            <On
+                Platform="iOS"
+                Value="Roboto-Medium" />
+            <On
+                Platform="Android"
+                Value="Roboto-Medium.ttf#Roboto-Medium" />
+        </OnPlatform>
+        <OnPlatform
+            x:Key="RobotoRegular"
+            x:TypeArguments="x:String">
+            <On
+                Platform="iOS"
+                Value="Roboto-Regular" />
+            <On
+                Platform="Android"
+                Value="Roboto-Regular.ttf#Roboto-Regular" />
+        </OnPlatform>
+        <OnPlatform
+            x:Key="IconSolid"
+            x:TypeArguments="x:String">
+            <On
+                Platform="iOS"
+                Value="fa-solid-900" />
+            <On
+                Platform="Android"
+                Value="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free-Solid-900" />
+        </OnPlatform>
+        <OnPlatform x:Key="CardCornerRadius" x:TypeArguments="x:Single">
+                <On  Platform="Android" Value="10"></On>
+                <On  Platform="iOS" Value="20"></On>
+        </OnPlatform>
+        <Color
+            x:Key="PageBackgroundColor">#01e9b2</Color>
+        <Color
+            x:Key="WhiteColor">White</Color>
+        <Color
+            x:Key="ButtonColor">#00c092</Color>
+        <Color
+            x:Key="NormalTextColor">#464646</Color>
+        <Color
+            x:Key="OrangeColor">#ff8d24</Color>
+        <Color
+            x:Key="BlueColor">#00b0ff</Color>
+        <Color
+            x:Key="LightGreyColor">#c2c2c2</Color>
+         <Color
+            x:Key="BeigeColor">#00b68a</Color>
+        <Style
+            x:Key="LabelPageHeadingStyle"
+            TargetType="Label">
+            <Setter
+                Property="FontAttributes"
+                Value="Bold" />
+            <Setter
+                Property="TextColor"
+                Value="{StaticResource WhiteColor}" />
+            <Setter
+                Property="FontFamily"
+                Value="{StaticResource RobotoMedium}" />
+            
+        </Style>
+        <Style TargetType="Label">
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="FontFamily" Value="{StaticResource RobotoRegular}" />
+                <Setter Property="TextColor" Value="{StaticResource NormalTextColor}" />
+        </Style>
+        <Style TargetType="Entry">
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="FontFamily" Value="{StaticResource RobotoRegular}" />
+                <Setter Property="TextColor" Value="{StaticResource NormalTextColor}" />
+        </Style>
+        <Style x:Key="FontAwesome" TargetType="Label">
+            <Setter Property="FontFamily" Value="{StaticResource IconSolid}" />
+        </Style>
+        <Style TargetType="NavigationPage">
+            <Setter Property="BarBackgroundColor" Value="{StaticResource PageBackgroundColor}"  />
+            <Setter Property="BarTextColor" Value="White"/>
+        </Style>
+    </Application.Resources>
+</Application>
