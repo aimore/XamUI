@@ -1,4 +1,4 @@
-**XamQuiz Android**
+**XamQuiz iOS**
 
 - Login Page
 
