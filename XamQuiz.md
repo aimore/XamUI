@@ -31,6 +31,10 @@
 
 - Change loging avatar using a timer
 
+> Useful links
+
+- Avatar generator: http://avatars.adorable.io/
+
 **Simple animation**
 
 <img src="https://i.imgur.com/OeWphmG.gif" width="200">
