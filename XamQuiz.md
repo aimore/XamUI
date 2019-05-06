@@ -33,7 +33,8 @@
 
 > Useful links
 
-- Avatar generator: http://avatars.adorable.io/
+- <a href="http://avatars.adorable.io/">Avatar generator API</a>
+
 
 **Simple animation**
 
