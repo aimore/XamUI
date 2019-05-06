@@ -1,6 +1,7 @@
 **XamQuiz Screens**
 
 - Login Page
+- Ranking Page
 
 **iOS**
 
