@@ -35,4 +35,4 @@
 
 <img src="https://cdn.dribbble.com/users/142973/screenshots/2778265/dictionary-application.png" width="400">
 Dictionary Application
-by Aryana Shakibaei
+by Aryana Shakibaei (https://dribbble.com/shots/2778265-Dictionary-Application#shot-description)
