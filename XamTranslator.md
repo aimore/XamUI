@@ -10,7 +10,7 @@
 
 **Android**
 
-<img src="https://i.imgur.com/faN2yIY.png" width="200"> <img src="https://i.imgur.com/SLLE0Z0.png" width="200">
+<img src="https://i.imgur.com/a4hmvd6.png" width="200"> <img src="https://i.imgur.com/E7rpRav.png" width="200">
 
 
 
