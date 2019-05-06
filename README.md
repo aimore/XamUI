@@ -15,7 +15,6 @@
 
 - Login Page
 
-[![Login Page](https://i.imgur.com/JirgAH9.png)]()
 <img src="https://i.imgur.com/JirgAH9.png" width="250">
 
 
