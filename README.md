@@ -16,11 +16,12 @@
 - Login Page
 
 [![Login Page](https://i.imgur.com/JirgAH9.png)]()
+<img src="https://i.imgur.com/JirgAH9.png" width="250">
 
 
 - Ranking List
 
-[![Ranking Page](https://i.imgur.com/0DrI2Gd.png)]()
+<img src="https://i.imgur.com/0DrI2Gd.png" width="250">
 
 > Nugets used
 
@@ -39,7 +40,8 @@
 
 **Simple animation**
 
-![Recordit GIF](https://i.imgur.com/OeWphmG.gif)
+<img src="https://i.imgur.com/OeWphmG.gif" width="250">
+
 
 
 
