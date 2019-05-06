@@ -8,7 +8,7 @@
 **Projects**
 
 - XamQuiz  [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamQuiz.md)
-- XamTranslator  [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](https://travis-ci.org/badges/badgerbadgerbadger)
+- XamTranslator  [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamTranslator.md)
 
 
 
