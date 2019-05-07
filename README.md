@@ -27,4 +27,4 @@
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2018 © <a href="http://fvcproductions.com" target="_blank">aimoresc</a>.
+- Copyright 2018 © <a href="https://aimore.github.io/" target="_blank">aimoresc</a>.
