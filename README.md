@@ -2,7 +2,7 @@
 
 # Xamarin UI challenge 🏆
 
-> Beautiful UIs using Xamarin.Forms controls.
+> Beautiful UIs using Xamarin.Forms.
 
 
 **Projects**
