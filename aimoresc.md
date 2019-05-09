@@ -1,4 +1,4 @@
-**XamQuiz Screens**
+**aimoresc App Screens**
 
 - Login Page
 - Ranking Page
