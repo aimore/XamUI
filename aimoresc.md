@@ -44,6 +44,9 @@
 
 - <a href="https://xamarinhelp.com/lottie-animations-xamarin-forms/">Lottie animations in Xamarin.Forms</a>
 
+- <a href="https://www.instagram.com/developer/">Instagram API</a>
+
+
 
 **Simple animation**
 
