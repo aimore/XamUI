@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:XFTranslator"
+    x:Class="XFTranslator.MainPage"
+    xmlns:viewModels="clr-namespace:XFTranslator.ViewModels"
+    xmlns:extension="clr-namespace:XFTranslator.Helpers"
+    BackgroundColor="{StaticResource PageBackgroundColor}"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
+    ios:Page.UseSafeArea="true" >
+    <ContentPage.BindingContext>
+        <viewModels:MainPageViewModel/>
+    </ContentPage.BindingContext>
+    <Grid RowSpacing="0"
+          Visual="Material" 
+          VerticalOptions="FillAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <!-- Place new controls here -->
+        <Image Source="{extension:ImageResource XFTranslator.Resources.logo.png}"
+               Aspect="AspectFit" HorizontalOptions="CenterAndExpand"
+               Margin="0,20"
+               VerticalOptions="Start"/>
+        <Entry
+            Grid.Row="1"
+            Text="{Binding SearchEntryText, Mode=TwoWay}"
+            Placeholder="Type word..."
+            HorizontalOptions="Fill"
+            Margin="20,0"
+            HeightRequest="80"
+            VerticalOptions="StartAndExpand" />
+        <Button Text="Translate" VerticalOptions="End" HorizontalOptions="Fill"
+                Margin="20,0"
+                FontSize="18"
+                Command="{Binding TranslateCommand}"
+                FontFamily="{StaticResource RobotoRegular}"
+                BackgroundColor="{StaticResource ButtonColor}"
+                Grid.Row="2"/>
+        <Label FontSize="Micro" Text="Version 1.0 developed by Aimoré Sá" VerticalOptions="End"
+               HorizontalOptions="Center"
+               Margin="0,20,0,0"
+               Grid.Row="3"/>
+    </Grid>
+</ContentPage>

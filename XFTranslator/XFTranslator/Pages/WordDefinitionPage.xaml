@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XFTranslator.Pages.WordDefinitionPage"
+    xmlns:viewModels="clr-namespace:XFTranslator.ViewModels"
+    BackgroundColor="{StaticResource PageBackgroundColor}">
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Fill"
+                     VerticalOptions="Fill"
+                     BackgroundColor="{StaticResource PageBackgroundColor}">
+            <StackLayout.Margin>
+                <OnPlatform x:TypeArguments="Thickness">
+                    <On Platform="Android" Value="0,0,15,0" />
+                </OnPlatform>
+            </StackLayout.Margin>
+            <StackLayout.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding NavigateToSearchCommand}" />
+            </StackLayout.GestureRecognizers>
+            <Label VerticalOptions="Center"
+                   Text="SEARCH"
+                FontSize="Small" FontFamily="{StaticResource RobotoMedium}"
+                HorizontalOptions="EndAndExpand"
+                TextColor="{StaticResource WhiteColor}"/>
+            <Image Aspect="AspectFit" Source="SearchIcon"
+                   HeightRequest="30"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <ScrollView 
+            VerticalScrollBarVisibility="Never"
+            AbsoluteLayout.LayoutBounds="0,0,1,1"
+            AbsoluteLayout.LayoutFlags="SizeProportional">
+            <ScrollView.Margin>
+                <OnPlatform x:TypeArguments="Thickness" Default="15,0,0,0">
+                <On Platform="Android" Value="15,50,0,0"/>
+                </OnPlatform>
+            </ScrollView.Margin>
+            <Grid Visual="Material"
+                  RowSpacing="0"
+                  VerticalOptions="CenterAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid Margin="0,20,0,40">
+                     <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="{Binding Word}"
+                       FontSize="40"
+                       x:Name="Word"
+                       FontFamily="{StaticResource RobotoMedium}"
+                       TextColor="{StaticResource WhiteColor}"
+                       HorizontalTextAlignment="Start"/>
+                    <StackLayout Orientation="Horizontal" Grid.Row="1"
+                                 HorizontalOptions="Start">
+                        <Frame
+                            CornerRadius="10"
+                            Padding="0"
+                            BackgroundColor="{StaticResource BeigeColor}"
+                            Margin="0"
+                            VerticalOptions="CenterAndExpand"
+                            HasShadow="False" >
+                            <Label Margin="5" 
+                                FontFamily="{StaticResource RobotoMedium}"
+                                HorizontalOptions="Center" 
+                                FontAttributes="Bold"
+                                TextColor="{StaticResource WhiteColor}"
+                                Text="Adjective" />
+                    </Frame>
+                    <Image HeightRequest="25"
+                           Source="VolumeIcon"
+                           VerticalOptions="Center"
+                           Opacity=".5"/>
+                    </StackLayout>
+                </Grid>
+                <StackLayout Grid.Row="1" HorizontalOptions="Fill"
+                             VerticalOptions="StartAndExpand">
+                    <ScrollView Orientation="Horizontal"
+                                HorizontalOptions="Fill"
+                                HorizontalScrollBarVisibility="Never">
+                            <FlexLayout Direction="Row"
+                                        Position="Relative"
+                                        AlignItems="Start"
+                                        FlowDirection="LeftToRight"
+                                        JustifyContent="SpaceEvenly">
+                                <Frame HeightRequest="160" WidthRequest="160" HasShadow="false"
+                                       VerticalOptions="CenterAndExpand"
+                                       Margin="0,0,15,0"
+                                       CornerRadius="20"
+                                       HorizontalOptions="CenterAndExpand"
+                                       BackgroundColor="{StaticResource WhiteColor}">
+                                    <StackLayout VerticalOptions="CenterAndExpand">
+                                          <Label Text="großartig" FontFamily="{StaticResource RobotoMedium}"
+                                               FontSize="30"/>
+                                        <Label Text="adv." 
+                                               FontFamily="{StaticResource RobotoMedium}"
+                                               TextColor="{StaticResource OrangeColor}"
+                                               />
+                                        <Label Text="adj. (ˈgroːs|artɪç)" 
+                                               FontFamily="{StaticResource RobotoMedium}"
+                                               TextColor="{StaticResource OrangeColor}"
+                                               />
+                                    </StackLayout>
+                                </Frame>
+                                <Frame HeightRequest="160" WidthRequest="160" HasShadow="false"
+                                       VerticalOptions="CenterAndExpand"
+                                       CornerRadius="20"
+                                       HorizontalOptions="CenterAndExpand"
+                                       BackgroundColor="{StaticResource WhiteColor}">
+                                    <StackLayout VerticalOptions="CenterAndExpand">
+                                        <Label Text="ausgezeichnet" FontFamily="{StaticResource RobotoMedium}"
+                                               FontSize="30"/>
+                                        <Label Text="Syn." 
+                                               FontFamily="{StaticResource RobotoMedium}"
+                                               TextColor="{StaticResource OrangeColor}"
+                                               />
+                                    </StackLayout>
+                                </Frame>
+                                <Frame HeightRequest="160" WidthRequest="160" HasShadow="false"
+                                       VerticalOptions="CenterAndExpand"
+                                       Margin="15,0,0,0"
+                                       CornerRadius="20"
+                                       HorizontalOptions="CenterAndExpand"
+                                       BackgroundColor="{StaticResource WhiteColor}">
+                                    <StackLayout VerticalOptions="CenterAndExpand">
+                                        <Label Text="bemerkenswert" FontFamily="{StaticResource RobotoMedium}"
+                                               FontSize="30"/>
+                                        <Label Text="Syn." 
+                                               FontFamily="{StaticResource RobotoMedium}"
+                                               TextColor="{StaticResource OrangeColor}"
+                                               />
+                                    </StackLayout>
+                                </Frame>
+                            </FlexLayout>
+                    </ScrollView>
+                </StackLayout>
+                <StackLayout VerticalOptions="FillAndExpand"
+                             Grid.Row="2"
+                             Margin="0,20,15,20">
+                    <Frame HorizontalOptions="FillAndExpand"
+                           HasShadow="false"
+                           VerticalOptions="FillAndExpand"
+                           CornerRadius="20">
+                        <Grid ColumnSpacing="20">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Frame 
+                                   HeightRequest="20" 
+                                   HasShadow="false"
+                                   WidthRequest="20" 
+                                   CornerRadius="{StaticResource CardCornerRadius}"
+                                   HorizontalOptions="Start" 
+                                   VerticalOptions="Start" 
+                                   Margin="0"
+                                   Padding="0"
+                                   BackgroundColor="{StaticResource BlueColor}">
+                                <Label Text="1" 
+                                       FontFamily="{StaticResource RobotoMedium}"
+                                       TextColor="{StaticResource WhiteColor}" 
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center" 
+                                       HorizontalTextAlignment="Center"
+                                       VerticalTextAlignment="Center" />
+                            </Frame>
+                            <Label 
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Fill"
+                                   Grid.Column="1">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="großartig wunderbar, hervorragend eine großartige Leistung vollbringen.&#10;" />
+                                        <Span Text="● sehr eindrucksvoll eine großartige Künstlerin / Leistung &#10;"
+                                              TextColor="{StaticResource LightGreyColor}" />
+                                         <Span Text="● umgangssprachlich Entschuldigung, Erklärung umfangreich, groß Das macht keinen großartigen Unterschied.&#10;"
+                                              TextColor="{StaticResource LightGreyColor}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Frame Grid.Row="1" 
+                                   HeightRequest="20" 
+                                   HasShadow="false"
+                                   WidthRequest="20" 
+                                   CornerRadius="{StaticResource CardCornerRadius}"
+                                   HorizontalOptions="Start" 
+                                   VerticalOptions="Start" 
+                                   Margin="0"
+                                   Padding="0"
+                                   BackgroundColor="{StaticResource OrangeColor}">
+                                <Label Text="2" 
+                                       FontFamily="{StaticResource RobotoMedium}"
+                                       TextColor="{StaticResource WhiteColor}" 
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center" 
+                                       HorizontalTextAlignment="Center"
+                                       VerticalTextAlignment="Center" />
+                            </Frame>
+                            <Label 
+                                Text="Adj; von hervorragender Qualität, sehr gut: Das war eine großartige Leistung;&#10; Das Wetter im Urlaub war großartig;&#10; Unsere Mannschaft hat großartig gespielt
+|| hierzu Groß•ar•tig•keit die; nur Sg"
+                                   LineBreakMode="WordWrap"
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Fill"
+                                   Grid.Column="1"
+                                   Grid.Row="1"/>
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+            </Grid>
+        </ScrollView>    
+    </ContentPage.Content>    
+</ContentPage>
