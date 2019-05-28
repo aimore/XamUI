@@ -1,6 +1,10 @@
 **aimoresc App Screens**
 
 - Login Page
+- Lazy startup Page
+- Contact Page
+- Map 
+- Blog 
 - Ranking Page
 
 **iOS**
