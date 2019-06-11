@@ -22,9 +22,7 @@
 - Xamarin.Forms.Visual.Material 3.6.0.264807
 - Xamarin.FFImageLoading.Forms 2.4.5.870-pre
 - Xamarin.FFImageLoading.Transformations 2.4.5.870-pre
-- Xamarin.FFImageLoading.Transformations 2.4.5.870-pre
 - Newtonsoft.Json 12.0.1
-- Microsoft.Azure.Mobile.Client 4.1.1
 
 
 > Custom controls
