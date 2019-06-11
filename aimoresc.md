@@ -5,7 +5,7 @@
 - Contact Page
 - Map 
 - Blog 
-- Ranking Page
+- Resume Page
 
 **iOS**
 
