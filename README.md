@@ -1,6 +1,6 @@
 
 
-# Xamarin UI challenge 🏆
+# Xamarin UI Challenges 🏆
 
 > Beautiful Apps with Xamarin.Forms.
 
