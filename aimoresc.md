@@ -22,11 +22,11 @@
 
 > Nugets used
 
-- Xamarin.Forms 3.1.0.697729
-- Xamarin.Forms.Maps 3.1.0.697729
-- Xamarin.FFImageLoading.Forms 2.4.3.840
+- Xamarin.Forms 3.5.0.169047
+- Xamarin.Forms.Maps 3.5.0.169047
+- Xamarin.FFImageLoading.Forms 2.4.4.859
 - Newtonsoft.Json 12.0.1
-- Com.Airbnb.Xamarin.Forms.Lottie 2.5.4
+- Com.Airbnb.Xamarin.Forms.Lottie 2.7.0
 - Microsoft.AppCenter.Analytics 1.13.0
 - Microsoft.AppCenter.Crashes 1.13.0
 
