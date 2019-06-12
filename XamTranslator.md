@@ -30,6 +30,10 @@
 
 - <a href="https://googledictionaryapi.eu-gb.mybluemix.net/">Google dictionary API</a>
 
+> Blockers 🚫
+The Google Translation API service doesn't support the multiple translations of a word functionality!!! 
+https://translate.google.com/?um=1&ie=UTF-8&hl=en&client=tw-ob#en/de/awesome
+
 
 > UI Design inspiration
 
