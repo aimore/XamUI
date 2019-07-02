@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="XamFood.App">
+    <Application.Resources>
+           <OnPlatform
+            x:Key="RobotoBold"
+            x:TypeArguments="x:String">
+            <On
+                Platform="iOS"
+                Value="Roboto-Bold" />
+            <On
+                Platform="Android"
+                Value="Roboto-Bold.ttf#Roboto-Bold" />
+        </OnPlatform>
+            <OnPlatform
+            x:Key="RobotoRegular"
+            x:TypeArguments="x:String">
+            <On
+                Platform="iOS"
+                Value="Roboto-Regular" />
+            <On
+                Platform="Android"
+                Value="Roboto-Regular.ttf#Roboto-Regular" />
+        </OnPlatform>
+        <OnPlatform
+            x:Key="IconSolid"
+            x:TypeArguments="x:String">
+          <!--  <On
+                Platform="iOS"
+                Value="fa-solid-900" />-->
+            <On
+                Platform="iOS"
+                Value="Font Awesome 5 Free-Solid-900" />
+            <On
+                Platform="Android"
+                Value="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free-Solid-900" />
+        </OnPlatform>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="{StaticResource RobotoRegular}" />
+            <Setter Property="TextColor" Value="Black" />
+        </Style>
+    </Application.Resources>
+</Application>

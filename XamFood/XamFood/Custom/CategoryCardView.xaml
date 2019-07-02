@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Frame xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       x:Class="XamFood.Custom.CategoryCardView"
+       xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" 
+       HasShadow="true" Padding="0" IsClippedToBounds="true" Visual="Material" CornerRadius="8"
+       HeightRequest="160"
+       WidthRequest="160"
+       BackgroundColor="White">
+    <Grid>
+        <ffimageloading:CachedImage HorizontalOptions="Center" Opacity=".8"
+                                    VerticalOptions="Center" 
+                                    FadeAnimationEnabled="true" Aspect="AspectFit" 
+                                    Source="{Binding image}" />
+        <BoxView BackgroundColor="Black" Opacity=".5" HorizontalOptions="Fill" VerticalOptions="Fill" />
+        <Label Text="{Binding title}"  Margin="15,0"
+               FontFamily="{StaticResource RobotoBold}" 
+               TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="Large" />
+    </Grid>
+</Frame>

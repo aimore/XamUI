@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamFood.Views.HomePage" xmlns:local="clr-namespace:XamFood" xmlns:custom="clr-namespace:XamFood.Custom" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" ios:Page.UseSafeArea="true">
+    <StackLayout Visual="Material" Margin="15,0">
+        <!-- SEARCHBAR -->
+        <Frame Padding="0" BackgroundColor="White">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <SearchBar Placeholder="Search..." BackgroundColor="White" />
+                <Image Source="filterIcon.png" HorizontalOptions="End" Margin="0,0,10,0" Grid.Column="1" Opacity=".8" Aspect="AspectFit" />
+            </Grid>
+        </Frame>
+        <!-- PROMO -->
+        <StackLayout Orientation="Horizontal" VerticalOptions="StartAndExpand" Margin="0,15,0,0">
+            <Label Text="{x:Static local:HomeUIConstants.PromoTitleLabel}" FontFamily="{StaticResource RobotoBold}" FontSize="Large" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />
+            <Label Text="{x:Static local:HomeUIConstants.PromoLinkLabel}" HorizontalOptions="EndAndExpand" FontFamily="{StaticResource RobotoRegular}" TextColor="Blue" VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+        <ScrollView Orientation="Horizontal" HorizontalOptions="Fill" VerticalOptions="FillAndExpand" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="SizeProportional">
+            <FlexLayout BindableLayout.ItemsSource="{Binding RestaurantList}" Direction="Row" Position="Relative" AlignItems="Start" FlowDirection="LeftToRight" JustifyContent="SpaceEvenly">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="8,0" FlexLayout.AlignSelf="Start">
+                            <custom:TrendingCardView />
+                        </Grid>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </FlexLayout>
+        </ScrollView>
+        <!-- CATEGORY -->
+        <StackLayout Orientation="Horizontal" VerticalOptions="StartAndExpand" Margin="0,15,0,0">
+            <Label Text="{x:Static local:HomeUIConstants.CategoryTitleLabel}" VerticalOptions="CenterAndExpand" FontFamily="{StaticResource RobotoBold}" FontSize="Large" HorizontalOptions="StartAndExpand" />
+            <Label Text="{x:Static local:HomeUIConstants.CategoryLinkLabel}" VerticalOptions="CenterAndExpand" FontFamily="{StaticResource RobotoRegular}" HorizontalOptions="EndAndExpand" TextColor="Blue" />
+        </StackLayout>
+        <ScrollView Orientation="Horizontal" HorizontalOptions="Fill" VerticalOptions="FillAndExpand" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="SizeProportional">
+            <FlexLayout Direction="Row" BindableLayout.ItemsSource="{Binding CategoryList}" Position="Relative" AlignItems="Start" FlowDirection="LeftToRight" JustifyContent="SpaceEvenly">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="8,0" FlexLayout.AlignSelf="Start">
+                            <custom:CategoryCardView />
+                        </Grid>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </FlexLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
