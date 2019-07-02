@@ -10,7 +10,8 @@
 - XamQuiz  [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamQuiz.md)
 - XamTranslator  [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamTranslator.md)
 - Aimoresc - Personal App  [![Build Status](https://img.shields.io/badge/-done-green.svg)](aimoresc.md)
-- XamHeroes [![Build Status](https://img.shields.io/badge/-planned-yellow.svg)](aimoresc.md)
+- XamFood  [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamTranslator.md)
+- XamHeroes [![Build Status](https://img.shields.io/badge/-planned-yellow.svg)]()
 
 
 
