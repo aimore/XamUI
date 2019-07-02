@@ -22,7 +22,7 @@
 
 > Custom controls
 
-- Custo BottomBar renderer with Float Action button
+- Custom BottomBar renderer with Float Action button
 
 > Useful links
 
