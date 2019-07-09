@@ -73,11 +73,8 @@ namespace XamFood.ViewModels
                     image = "https://media.danmurphys.com.au/dmo/product/908288-1.png"
                 }
             };
-
         }
-
         public ObservableCollection<PromoCard> RestaurantList { get; set; }
         public ObservableCollection<CategoryCard> CategoryList { get; set; }
-
     }
 }

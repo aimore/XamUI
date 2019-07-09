@@ -40,8 +40,8 @@
                         AlignItems="Start" 
                         FlowDirection="LeftToRight" 
                         JustifyContent="SpaceEvenly">
-                <custom:TrendingCardView />
-            </FlexLayout>
+<!--                <custom:TrendingCardView />
+-->            </FlexLayout>
         </ScrollView>
         <!-- CATEGORY -->
         <StackLayout Orientation="Horizontal"

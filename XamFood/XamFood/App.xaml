@@ -21,12 +21,26 @@
                 Platform="Android"
                 Value="Roboto-Regular.ttf#Roboto-Regular" />
         </OnPlatform>
+        <OnPlatform x:Key="FontAwesomeBrands"
+            x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="FontAwesome5BrandsRegular" />
+                <On Platform="Android"
+                    Value="fa-brands-400.ttf#FontAwesome5BrandsRegular" />
+            </OnPlatform>
+            <OnPlatform x:Key="FontAwesomeSolid"
+                x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="FontAwesome5FreeSolid" />
+                <On Platform="Android"
+                    Value="fa-solid-900.ttf#FontAwesome5FreeSolid" />
+        </OnPlatform>
         <OnPlatform
             x:Key="IconSolid"
             x:TypeArguments="x:String">
-          <!--  <On
+            <On
                 Platform="iOS"
-                Value="fa-solid-900" />-->
+                Value="FontAwesome5FreeSolid" />
             <On
                 Platform="iOS"
                 Value="Font Awesome 5 Free-Solid-900" />

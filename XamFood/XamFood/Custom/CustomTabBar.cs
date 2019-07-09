@@ -17,7 +17,7 @@ namespace XamFood.Custom
             var navigationPage2 = new ContentPage();
             navigationPage2.IconImageSource = "heartIcon.png";
             navigationPage2.Title = "";
-            var navigationPage3 = new ContentPage();
+            var navigationPage3 = new LocationPage();
             navigationPage3.IconImageSource = "pinIcon.png";
             navigationPage3.Title = "";
             var navigationPage4 = new ContentPage();

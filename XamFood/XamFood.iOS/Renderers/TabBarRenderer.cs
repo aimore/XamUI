@@ -61,6 +61,11 @@ namespace XamFood.iOS.Renderers
             var item2 = items[2];
             item1.TitlePositionAdjustment = new UIOffset(-20f, 0f);
             item2.TitlePositionAdjustment = new UIOffset(20f, 0f);
+
+            //Remove the top line
+            TabBar.ShadowImage = new UIImage();
+            TabBar.BackgroundImage = new UIImage();
+            TabBar.ClipsToBounds = true;
         }
 
         public async void DoSomething(object sender, System.EventArgs e) {

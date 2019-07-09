@@ -24,6 +24,7 @@ namespace XamFood.iOS
         {
             global::Xamarin.Forms.Forms.SetFlags("CollectionView_Experimental", "FastRenderers_Experimental");
             global::Xamarin.Forms.Forms.Init();
+            Xamarin.FormsMaps.Init();
             Xamarin.Forms.FormsMaterial.Init();
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init();
             LoadApplication(new App());

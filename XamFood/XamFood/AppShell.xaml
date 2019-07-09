@@ -29,7 +29,7 @@
             <ShellContent ContentTemplate="{DataTemplate views:AboutPage}" />
         </Tab>
         <Tab Title="Location" Icon="pinIcon.png">
-            <ShellContent ContentTemplate="{DataTemplate views:AboutPage}" />
+            <ShellContent ContentTemplate="{DataTemplate views:LocationPage}" />
         </Tab>
         <Tab Title="Account" Icon="userIcon.png">
             <ShellContent ContentTemplate="{DataTemplate views:AboutPage}" />
