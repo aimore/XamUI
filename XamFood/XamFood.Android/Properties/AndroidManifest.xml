@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.aimoresc.xamfood">
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
 	<application android:label="XamFood.Android">
-		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyABWSgbN0e_N1vmyFM0kCzzZdG9BGR3_VA" />
+		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="YOUR_KEY" />
 		<uses-library android:name="org.apache.http.legacy" android:required="false" />
 	</application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
