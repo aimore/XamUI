@@ -15,7 +15,7 @@
 - XamHeroes [![Build Status](https://img.shields.io/badge/-planned-yellow.svg)]()
 
 **For more inspiration check this out!**
-(https://www.snppts.dev/img/snppts-badge.jpg)(https://www.snppts.dev)
+<img src="https://www.snppts.dev/img/snppts-badge.jpg" width="200">(https://www.snppts.dev)
 
 ### Contribute
 
