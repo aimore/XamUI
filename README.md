@@ -14,8 +14,8 @@
 - XamFood  [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamFood.md)
 - XamHeroes [![Build Status](https://img.shields.io/badge/-planned-yellow.svg)]()
 
-**For more inspiration check this out!**
-<img src="https://www.snppts.dev/img/snppts-badge.jpg" width="200">(https://www.snppts.dev)
+<img src="https://www.snppts.dev/img/snppts-badge.jpg" width="200">
+https://www.snppts.dev
 
 ### Contribute
 
