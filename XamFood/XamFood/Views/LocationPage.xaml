@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamFood.Views.LocationPage"
+              xmlns:views="clr-namespace:XamFood.Views"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+            xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations">
+       <Grid Visual="Material"
+             CompressedLayout.IsHeadless="true"
+              RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" x:Name="clamp" />
+        </Grid.RowDefinitions>
+            <views:MapPage x:Name="map"
+            HorizontalOptions="FillAndExpand"/>
+            <Frame Grid.RowSpan="1" Padding="0" VerticalOptions="EndAndExpand"
+                   CornerRadius="0"
+                   Grid.Row="1"
+                    x:Name="bottomSheet"
+                   HorizontalOptions="Fill">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="1" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <StackLayout BackgroundColor="Blue" Orientation="Horizontal">
+                        <Label 
+                           Margin="20"
+                           VerticalOptions="CenterAndExpand"    
+                           TextColor="White">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Joe's Pizza&#x0a;" FontFamily="{StaticResource RobotoRegular}"
+                                          FontSize="20"
+                                          FontAttributes="Bold" />
+                                    <Span Text="Good and cheap pizza slice" 
+                                          FontSize="15"
+                                      FontFamily="{StaticResource RobotoRegular}" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <StackLayout Margin="15,0" 
+                                     VerticalOptions="CenterAndExpand"
+                                     HorizontalOptions="EndAndExpand">
+                            <Frame 
+                                BackgroundColor="White"
+                                Padding="0" CornerRadius="4" IsClippedToBounds="true" HasShadow="false" VerticalOptions="Center">
+                                <Label Text="OPEN" 
+                                    Margin="0,3"
+                                    FontFamily="{StaticResource RobotoBold}" 
+                                    HorizontalOptions="Center" WidthRequest="50"
+                                HorizontalTextAlignment="Center" FontSize="10" FontAttributes="Bold" TextColor="Blue" />
+                            </Frame>
+                             <Frame 
+                                BackgroundColor="White"
+                                Padding="0" CornerRadius="4" IsClippedToBounds="true" HasShadow="false" VerticalOptions="Center">
+                                <Label HorizontalOptions="Center"
+                                    Margin="0,3"
+                                    WidthRequest="50" HorizontalTextAlignment="Center">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="" 
+                                                    FontFamily="{StaticResource FontAwesomeSolid}" TextColor="#fcd02b" FontSize="10" />
+                                                <Span Text=" 4.5" TextColor="Blue" FontSize="10" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                            </Frame>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" Orientation="Horizontal"
+                                 VerticalOptions="CenterAndExpand"
+                                 Margin="20">
+                      <Label HorizontalOptions="StartAndExpand"
+                             HorizontalTextAlignment="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="&#xf095;" 
+                                            FontFamily="{StaticResource FontAwesomeSolid}" TextColor="Blue" FontSize="18" />
+                                        <Span Text="&#x0a;CALL" TextColor="Blue" FontFamily="{StaticResource RobotoBold}" FontSize="18" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                        </Label>
+                        <Label HorizontalOptions="CenterAndExpand"
+                               HorizontalTextAlignment="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="&#xf35d;"
+                                            FontFamily="{StaticResource FontAwesomeSolid}" TextColor="Blue" FontSize="18" />
+                                        <Span Text="&#x0a;WEBSITE" TextColor="Blue" FontFamily="{StaticResource RobotoBold}" FontSize="18" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                        </Label>
+                        <Label HorizontalOptions="EndAndExpand"
+                               HorizontalTextAlignment="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="&#xf005;" 
+                                            FontFamily="{StaticResource FontAwesomeSolid}" TextColor="Blue" FontSize="18" />
+                                        <Span Text="&#x0a;REVIEWS" TextColor="Blue" FontFamily="{StaticResource RobotoBold}" FontSize="18" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                    <BoxView BackgroundColor="#C0C0C0" Grid.Row="2" HorizontalOptions="Fill"/>
+                    <StackLayout Orientation="Horizontal" Spacing="20" Grid.Row="3" Margin="20">
+                        <Label Text="&#xf3c5;"  TextColor="Blue" FontFamily="{StaticResource FontAwesomeSolid}"/>
+                        <Label Text="394 Pacific Ave, San Francisco CA" /> 
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="20" Grid.Row="4" Margin="20,0">
+                        <Label Text="&#xf017;"  TextColor="Blue" FontFamily="{StaticResource FontAwesomeSolid}"/>
+                        <Label Text="Open closes at 9pm" /> 
+                    </StackLayout>
+               </Grid>
+            </Frame>
+        </Grid>
+</ContentPage>

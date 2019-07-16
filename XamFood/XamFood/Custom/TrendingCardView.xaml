@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Frame xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       x:Class="XamFood.Custom.TrendingCardView"
+       HeightRequest="320"
+       WidthRequest="300"
+       xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+       HasShadow="true" Padding="0" IsClippedToBounds="true" Visual="Material" CornerRadius="8" BackgroundColor="White">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <BoxView BackgroundColor="{Binding cardColor}" Grid.RowSpan="2" HorizontalOptions="Fill" VerticalOptions="Fill" />
+        <Frame HorizontalOptions="StartAndExpand"
+               Margin="15" 
+               Padding="0" CornerRadius="4" IsClippedToBounds="true" HasShadow="false" VerticalOptions="Start">
+            <Label Text="{Binding rigthWidget}" 
+                   Margin="0,3"
+                   FontFamily="{StaticResource RobotoBold}" 
+                   HorizontalOptions="Center" WidthRequest="50"
+                   HorizontalTextAlignment="Center" FontSize="10" FontAttributes="Bold" TextColor="Green" />
+        </Frame>
+        <Frame HorizontalOptions="EndAndExpand"
+               Margin="15" 
+               Padding="0" CornerRadius="4"
+               IsClippedToBounds="true"
+               HasShadow="false" VerticalOptions="Start">
+            <Label HorizontalOptions="Center"
+                   Margin="0,3"
+                   WidthRequest="50" HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="" 
+                              FontFamily="{StaticResource IconSolid}" TextColor="#fcd02b" FontSize="10" />
+                        <Span Text="{Binding leftWidget}" TextColor="Black" FontSize="10" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </Frame>
+        <ffimageloading:CachedImage HorizontalOptions="Center"
+                                    Grid.Row="1"
+                                    VerticalOptions="Center"
+                                    FadeAnimationEnabled="true"
+                                    Aspect="AspectFit" 
+                                    Source="{Binding image}" />
+        <Label Text="{Binding title}" Margin="15,0" Grid.Row="2"
+               FontFamily="{StaticResource RobotoBold}" 
+               FontAttributes="Bold" FontSize="Large" />
+        <Label Text="{Binding address}" 
+               LineBreakMode="WordWrap"
+               Margin="15,0,0,15"
+               TextColor="Gray" HorizontalOptions="FillAndExpand" Grid.Row="3" FontSize="12" />
+    </Grid>
+</Frame>
