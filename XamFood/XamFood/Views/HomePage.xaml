@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamFood.Views.HomePage" xmlns:local="clr-namespace:XamFood" xmlns:custom="clr-namespace:XamFood.Custom" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" ios:Page.UseSafeArea="true">
     <StackLayout Visual="Material" Margin="15,0">
         <!-- SEARCHBAR -->
-        <Frame Padding="0" BackgroundColor="White">
+        <Frame Padding="0" Margin="0,20,0,0" BackgroundColor="White">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />

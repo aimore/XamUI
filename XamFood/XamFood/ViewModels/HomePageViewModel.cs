@@ -16,7 +16,7 @@ namespace XamFood.ViewModels
                 new PromoCard
                 {
                     address = "27 Porter Street, 2112 Ryde",
-                    image = "https://d3i4yxtzktqr9n.cloudfront.net/web-eats/static/images/homepage/burger-image-550-0f1a479683.png",
+                    image = "https://i.imgur.com/IM3y3mK.png",
                     title = "Lecker Burger",
                     leftWidget = "4.5",
                     rigthWidget = "OPEN",
@@ -55,7 +55,7 @@ namespace XamFood.ViewModels
                 new CategoryCard
                 {
                     title = "Burger",
-                    image = "https://d3i4yxtzktqr9n.cloudfront.net/web-eats/static/images/homepage/burger-image-550-0f1a479683.png"
+                    image = "https://i.imgur.com/AzLZX2Q.jpg"
                 },
                  new CategoryCard
                 {
