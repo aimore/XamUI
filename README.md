@@ -14,15 +14,11 @@
 - XamFood  [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamFood.md)
 - XamHeroes [![Build Status](https://img.shields.io/badge/-planned-yellow.svg)]()
 
-<img src="https://www.snppts.dev/img/snppts-badge.jpg" width="200">
-https://www.snppts.dev
+
 
 ### Contribute
-
-
-- TBD
-
----
+<img src="https://www.snppts.dev/img/snppts-badge.jpg" width="200">
+https://www.snppts.dev
 
 
 ## License
