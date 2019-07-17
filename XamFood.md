@@ -1,6 +1,7 @@
 **XamQuiz Screens**
 
-- HomePage
+- Home page
+- Map page
 
 **iOS**
 
