@@ -4,12 +4,12 @@
 
 **iOS**
 
-<img src="https://i.imgur.com/dXDg9xF.png" width="200"> 
+<img src="https://i.imgur.com/dXDg9xF.png" width="200"><img src="https://i.imgur.com/ZmVX5oS.png" width="200"> 
 
 
 **Android**
 
-<img src="https://i.imgur.com/Q8cuoVf.png" width="200">
+<img src="https://i.imgur.com/YiikVLP.png" width="200"><img src="https://i.imgur.com/M8Sa4eN.png" width="200">
 
 
 
