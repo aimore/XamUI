@@ -20,7 +20,6 @@
 - Xamarin.Forms.Maps 4.1.0.555618
 - Xamarin.Essentials 1.1.0
 - Xamarin.FFImageLoading.Forms 2.4.11.982
-- Xamarin.FFImageLoading.Transformations 2.4.11.982
 - Xamarin.Forms.Visual.Material 4.1.0.555618
 
 > Custom controls
