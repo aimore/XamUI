@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StackLayout
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamHeroes.HeroesCollectionTemplate"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    Spacing="20"
+    BindableLayout.ItemsSource="{Binding Heroes}">
+    <BindableLayout.ItemTemplate>
+        <DataTemplate>
+            <Frame
+                CornerRadius="18"
+                Margin="0"
+                Padding="0"
+                HasShadow="true"
+                VerticalOptions="Center"
+                IsClippedToBounds="True">
+                <Grid
+                    HorizontalOptions="Fill"
+                    IsClippedToBounds="true"
+                    ColumnSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition
+                            Width="Auto" />
+                        <ColumnDefinition
+                            Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <ffimageloading:CachedImage
+                        ErrorPlaceholder="no_portrait.jpg"
+                        LoadingPlaceholder="no_portrait.jpg"
+                        FadeAnimationEnabled="true"
+                        Aspect="Fill"
+                        HorizontalOptions="Start"
+                        Source="ImageSource" />
+                    <StackLayout
+                        Grid.Column="1"
+                        Margin="20,0"
+                        HorizontalOptions="Fill">
+                        <Label
+                            Text="{Binding Name}"
+                            FontSize="Large"
+                            FontAttributes="Bold"
+                            TextColor="Black" />
+                        <Label
+                            Text="Biography.FullNam}" />
+                        <Label
+                            Text="Biography.PlaceOfBirth"
+                            TextColor="Black" />
+                        <StackLayout
+                            Orientation="Horizontal"
+                            VerticalOptions="EndAndExpand">
+                            <Label
+                                Text="More info"
+                                TextColor="Black"
+                                FontAttributes="Bold" />
+                            <Label
+                                Text=""
+                                HorizontalOptions="EndAndExpand"
+                                FontSize="Large"
+                                FontFamily="{StaticResource FontAwesomeSolid}"
+                                TextColor="Black" />
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+            </Frame>
+        </DataTemplate>
+    </BindableLayout.ItemTemplate>
+</StackLayout>

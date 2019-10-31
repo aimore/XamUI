@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:XamHeroes"
+    x:Class="XamHeroes.HeroesPage"
+    xmlns:vm="using:XamHeroes.ViewModels"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    ios:Page.UseSafeArea="true">
+    <NavigationPage.TitleView>            
+        <local:HeroesNavHeader/>
+    </NavigationPage.TitleView>
+    <ContentPage.BindingContext>
+        <vm:HeroesPageViewModel />
+    </ContentPage.BindingContext>
+    <Grid>
+    <StackLayout>
+        <ContentView
+            VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand"
+            x:Name="contentView">
+<!--            <local:HeroesResponsiveCollectionView />
+-->        </ContentView>
+    </StackLayout>
+    <BoxView
+        Margin="-40"
+        BackgroundColor="White"
+        Opacity=".7"
+        VerticalOptions="Fill"
+        HorizontalOptions="Fill"
+        x:Name="box"
+        IsVisible="{Binding IsSearching}"/>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamHeroes.HeroesResponsiveCollectionView"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+    VerticalScrollBarVisibility="Never"
+    VerticalOptions="FillAndExpand" >
+    <StackLayout
+        Spacing="20"
+        Margin="10,20,0,20"
+        x:Name="stack">
+        <BindableLayout.ItemTemplate>
+            <DataTemplate>
+                <Frame
+                    Visual="Material"
+                    CornerRadius="18"
+                    Margin="0"
+                    HeightRequest="220"
+                    Padding="0"
+                    VerticalOptions="Center"
+                    IsClippedToBounds="false">
+                    <Grid
+                        HorizontalOptions="Fill"
+                        IsClippedToBounds="true"
+                        ColumnSpacing="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition
+                                Width="Auto" />
+                            <ColumnDefinition
+                                Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <ffimageloading:CachedImage
+                            ErrorPlaceholder="no_portrait.jpg"
+                            LoadingPlaceholder="no_portrait.jpg"
+                            FadeAnimationEnabled="true"
+                            Aspect="AspectFill"
+                            HorizontalOptions="Start"
+                            Source="{Binding ImageSource}">
+                            <ffimageloading:CachedImage.Transformations>
+                                <fftransformations:CornersTransformation
+                                    CornersTransformType="LeftRounded"
+                                    TopLeftCornerSize="18"
+                                    BottomLeftCornerSize="18"
+                                    />
+                            </ffimageloading:CachedImage.Transformations>
+                        </ffimageloading:CachedImage>
+                        <StackLayout
+                            Grid.Column="1"
+                            Margin="10"
+                            HorizontalOptions="FillAndExpand">
+                            <Label
+                                Text="{Binding Name}"
+                                FontSize="Large"
+                                FontAttributes="Bold"
+                                TextColor="Black" />
+                            <Label
+                                Text="{Binding Biography.FullName}}" />
+                            <Label
+                                Text="{Binding Biography.PlaceOfBirth}"
+                                TextColor="Black" />
+                            <StackLayout
+                                Orientation="Horizontal"
+                                VerticalOptions="EndAndExpand">
+                                <Label
+                                    Text="More info"
+                                    TextColor="Black"
+                                    VerticalOptions="EndAndExpand"
+                                    FontAttributes="Bold" />
+                                <Label
+                                    Text=""
+                                    HorizontalOptions="EndAndExpand"
+                                    FontSize="Large"
+                                    VerticalOptions="EndAndExpand"
+                                    FontFamily="{StaticResource FontAwesomeSolid}"
+                                    TextColor="Black" />
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="Handle_Tapped" />
+                                </StackLayout.GestureRecognizers>
+                            </StackLayout>
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+            </DataTemplate>
+        </BindableLayout.ItemTemplate>
+    </StackLayout>
+</ScrollView>

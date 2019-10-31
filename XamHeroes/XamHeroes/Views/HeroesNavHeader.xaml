@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Grid
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamHeroes.HeroesNavHeader">
+    <Grid.RowDefinitions>
+        <RowDefinition
+            Height="45" />
+    </Grid.RowDefinitions>
+    <Label
+        Text="MARVEL"
+        TextColor="Black"
+        FontSize="40"
+        VerticalOptions="End"
+        HorizontalOptions="StartAndExpand"
+        FontFamily="{StaticResource MarvelFont}"
+        Margin="20,0" />
+    <Image
+        Grid.Column="1"
+        Source="search_icon"
+        Aspect="AspectFit"
+        HeightRequest="30"
+        HorizontalOptions="EndAndExpand"
+        Margin="20,0">
+        <Image.GestureRecognizers>
+            <TapGestureRecognizer
+                Tapped="Handle_Tapped" />
+        </Image.GestureRecognizers>
+    </Image>
+</Grid>

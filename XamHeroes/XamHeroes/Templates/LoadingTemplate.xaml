@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Grid
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamHeroes.LoadingTemplate"
+    Padding="0"
+    xmlns:local="using:XamHeroes">
+    <BoxView Color="White" Opacity="0.7" />
+    <local:Pulse AutoStart="true" PulseColor="#FF0000"
+                 Speed="10"
+                 Margin="50"
+                 Source="XamHeroes.Images.marvel_icon.png"  />
+</Grid>
