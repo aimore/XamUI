@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="#7b2097"
+             x:Class="XamBank.MainPage"
+             xmlns:template="clr-namespace:XamBank.Cards"
+             xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
+             xmlns:controls="clr-namespace:PanCardView.Controls;assembly=PanCardView"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
+             ios:Page.UseSafeArea="true">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <template:CardsTemplateSelector x:Key="templateSelector"></template:CardsTemplateSelector>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="{x:OnPlatform iOS='420',Android='380'}" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackLayout VerticalOptions="Start"
+                     Margin="0,30"
+              HorizontalOptions="Center">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="icon.png" Aspect="AspectFit"
+                       VerticalOptions="Center"
+                       HeightRequest="50"/>
+                <Label Text="Aimoré"
+                       FontSize="22"
+                       VerticalOptions="Center"
+                       FontAttributes="Bold"
+                       TextColor="White"/>
+            </StackLayout>
+            <Image Source="ic_show_arrow.png" HeightRequest="20"
+                   Aspect="AspectFit"
+                   Scale=".9"
+                   Margin="0,-10,0,0"
+                   VerticalOptions="Start" HorizontalOptions="Center"/>
+        </StackLayout>
+        <cards:CarouselView
+            Grid.Row="1"
+            x:Name="cv"
+            ItemTemplate="{StaticResource templateSelector}">
+            <controls:IndicatorsControl />
+        </cards:CarouselView>
+        <StackLayout Grid.Row="2"
+                     VerticalOptions="EndAndExpand"
+                     Margin="10,0,0,10">
+            <ScrollView Orientation="Horizontal"
+                        HorizontalOptions="Fill"
+                        HorizontalScrollBarVisibility="Never"
+                        VerticalOptions="FillAndExpand"
+                        AbsoluteLayout.LayoutBounds="0,0,1,1"
+                        AbsoluteLayout.LayoutFlags="SizeProportional">
+                <FlexLayout Direction="Row"
+                            x:Name="flex"
+                            Position="Relative"
+                            AlignItems="Start"
+                            FlowDirection="LeftToRight"
+                            JustifyContent="SpaceEvenly">
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <template:MenuCard
+                                Padding="8,0"
+                                FlexLayout.AlignSelf="Start"/>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </FlexLayout>
+            </ScrollView>
+        </StackLayout>
+    </Grid>
+</ContentPage>

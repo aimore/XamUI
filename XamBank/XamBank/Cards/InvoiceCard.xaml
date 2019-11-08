@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Frame xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       x:Class="XamBank.Cards.InvoiceCard"
+       Visual="Material"
+       HeightRequest="{x:OnPlatform iOS='420',Android='380'}"
+       WidthRequest="{x:OnPlatform iOS='380',Android='360'}"
+       HorizontalOptions="Center"
+       Padding="0"
+       HasShadow="false"
+       IsClippedToBounds="true"
+       CornerRadius="3"
+       BackgroundColor="#fffeff">
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height=".5*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="ic_nucard.png" Aspect="AspectFit" Margin="30,38,0,0" VerticalOptions="Start" HorizontalOptions="StartAndExpand" HeightRequest="30" />
+        <StackLayout Grid.Row="1" Margin="30,0,0,0"
+                     VerticalOptions="CenterAndExpand"
+                     Spacing="0">
+            <Label Text="FATURA FECHADA" FontSize="Medium" TextColor="#ce626a" FontAttributes="Bold" />
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="R$  " TextColor="#ce626a" FontSize="30" />
+                        <Span Text="1.328" TextColor="#c23d46" FontSize="35" FontAttributes="Bold" />
+                        <Span Text=",40" TextColor="#ce626a" FontSize="35" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label Text="VENCIMENTO 25 MAI" FontSize="Medium" TextColor="#ce626a"
+                   Margin="0,0,0,20"/>
+
+            <StackLayout BackgroundColor="#ce626a"
+                         HeightRequest="38"
+                         WidthRequest="160"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Start"
+                         Padding="1">
+                <Label Text="PAGAR"
+                       TextColor="#ce626a"
+                       HeightRequest="40"
+                       FontAttributes="Bold"
+                       FontSize="Small"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"
+                       WidthRequest="120"
+                       BackgroundColor="White"/>
+            </StackLayout>
+        </StackLayout>
+        <Frame WidthRequest="8"
+                     Padding="0,25"
+                     Margin="20,30"
+                     CornerRadius="5"
+                     Visual="Default"
+                     HasShadow="False"
+                     Grid.RowSpan="2"
+                    IsClippedToBounds="True"
+                     BackgroundColor="#a6ca4d"
+                     HorizontalOptions="End"
+                     VerticalOptions="Fill">
+            <BoxView Color="#ff1a1a" HeightRequest="60" VerticalOptions="Start" />
+        </Frame>
+        <StackLayout Orientation="Horizontal" BackgroundColor="#f3f3f3"
+                     Spacing="0"
+                     Grid.ColumnSpan="2"
+                     Grid.Row="2">
+            <Image Source="food_icon.png"
+                   HorizontalOptions="Start"
+                   Aspect="AspectFit"
+                   VerticalOptions="CenterAndExpand"
+                   HeightRequest="30"
+                   Margin="30,0,0,0"
+                   Opacity=".8"/>
+            <Label Text="Compra mais recente no Empório
+                   Gourmet no valor de R$ 199,40 hoje"
+                   TextColor="#4d4c4d"
+                   Margin="10,0,0,0"
+                   VerticalOptions="CenterAndExpand"/>
+            <Image Source="ic_transaction_detail_arrow.png" 
+                   VerticalOptions="CenterAndExpand"
+                   Scale=".8"
+                   Margin="0,0,20,0"
+                   HorizontalOptions="Start"
+                   HeightRequest="20"
+                   Aspect="AspectFit"/>
+        </StackLayout>
+    </Grid>
+</Frame>

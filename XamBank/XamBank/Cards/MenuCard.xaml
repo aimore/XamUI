@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Frame xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       x:Class="XamBank.Cards.MenuCard"
+       Visual="Material"
+       CornerRadius="3"
+       BackgroundColor="#913ca8"
+       Opacity=".9"
+       HeightRequest="135"
+       WidthRequest="110"
+       Margin="10,0"
+       VerticalOptions="Center"
+       HorizontalOptions="Center"
+       Padding="0"
+       HasShadow="False">
+    <StackLayout>
+        <Image VerticalOptions="Start"
+               Aspect="AspectFit"
+               HeightRequest="25"
+               Margin="10"
+               Source="{Binding Icon}"
+               HorizontalOptions="Start"/>
+        <Label Text="{Binding Text}"
+               VerticalOptions="EndAndExpand"
+               Margin="10"
+               HorizontalOptions="StartAndExpand"
+               TextColor="White"/>
+    </StackLayout>
+</Frame>
