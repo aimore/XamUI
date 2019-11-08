@@ -12,7 +12,7 @@
 - Aimoresc - Personal App  [![Build Status](https://img.shields.io/badge/-done-green.svg)](aimoresc.md)
 - XamFood  [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamFood.md)
 - XamHeroes [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XAMHeros.md)
-- XamBank(Nubank app) [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XAMHeros.md)
+- XamBank(Nubank app) [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamBank.md)
 
 
 
