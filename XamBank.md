@@ -4,8 +4,8 @@
 
 **iOS**
 
-<img src="https://i.imgur.com/lpVw6EK.png" width="240">
-<img src="https://i.imgur.com/252oryP.png" width="240">
+<img src="https://i.imgur.com/lpVw6EK.png" width="240"> <img src="https://i.imgur.com/252oryP.png" width="240">
+
 
 
 
