@@ -25,7 +25,7 @@
     When using HotReload on Visual Studio for MAC using the NUGET CardsView 2.3.6, it does not work
     properly.
 
-> Custom controls
+> Original design
 - Reproducing NuBank app
  https://cdn.dribbble.com/users/23708/screenshots/4813428/newapp-gestures.gif
 
