@@ -19,6 +19,11 @@
 
     Xamarin.Forms 4.3.0.947036 
     CardsView 2.3.6  
+    
+> Issues found
+
+    When using HotReload on Visual Studio for MAC using the NUGET CardsView 2.3.6, it does not work
+    properly.
 
 > Custom controls
 - Reproducing NuBank app
