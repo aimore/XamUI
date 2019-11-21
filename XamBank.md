@@ -2,11 +2,16 @@
 
 - Main Page / Tab page
 
-**iOS**                                                 **Android**
+**iOS**                                                
 
 
+<img src="https://i.imgur.com/b05bnWP.png" width="240"> 
 
-<img src="https://i.imgur.com/b05bnWP.png" width="240">  <img src="https://i.imgur.com/U4Ph3aj.png" width="240">
+
+ **Android**
+ 
+ 
+<img src="https://i.imgur.com/U4Ph3aj.png" width="240">
 
 
 
