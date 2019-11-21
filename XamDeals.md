@@ -18,8 +18,8 @@
 
 > Custom controls
 
-   -Star rating view
-   -Custom entry (no underline)
+   - Star rating view
+   - Custom entry (no underline)
 
 > Nugets used
 
