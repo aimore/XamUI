@@ -2,15 +2,13 @@
 
 - Main Page / Tab page
 
-**iOS**
-
-<img src="https://i.imgur.com/b05bnWP.png" width="240"> 
+**iOS**                                                 **Android**
 
 
 
-**Android**
+<img src="https://i.imgur.com/b05bnWP.png" width="240">  <img src="https://i.imgur.com/U4Ph3aj.png" width="240">
 
-<img src="https://i.imgur.com/U4Ph3aj.png" width="240">
+
 
 
 > Custom controls
