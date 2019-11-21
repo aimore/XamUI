@@ -27,7 +27,7 @@
     
 > Issues found
 
-    HotReload on Visual Studio for MAC does not work properly
+    HotReload on Visual Studio for Mac does not work properly
     properly.
     TextDecorations="Strikethrough" on iOS didn't work ==> https://github.com/xamarin/Xamarin.Forms/issues/5801
 
