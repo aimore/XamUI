@@ -30,7 +30,6 @@
     HotReload on Visual Studio for MAC does not work properly
     properly.
     TextDecorations="Strikethrough" on iOS didn't work ==> https://github.com/xamarin/Xamarin.Forms/issues/5801
-    discrepancy Android startup time Xamarin vs Flutter
 
 > Original design
 - Groupon app
