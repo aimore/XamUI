@@ -5,7 +5,7 @@
 **iOS**                                                
 
 
-<img src="https://i.imgur.com/b05bnWP.png" width="240"> 
+<img src="https://i.imgur.com/b05bnWP.png" width="240"> <img src="https://i.imgur.com/AMOHZ9i.jpg" width="240"> 
 
 
  **Android**
