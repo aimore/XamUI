@@ -33,7 +33,7 @@
     discrepancy Android startup time Xamarin vs Flutter
 
 > Original design
-- Reproducing NuBank app
+- Groupon app
  https://www.groupon.com.au/mobile
 
 
