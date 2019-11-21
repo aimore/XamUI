@@ -13,6 +13,10 @@
 <img src="https://i.imgur.com/U4Ph3aj.png" width="240">
 
 
+> Custom controls
+
+   Star rating view
+   Custom entry (no underline)
 
 > Nugets used
 
