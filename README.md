@@ -14,7 +14,7 @@
 - XamHeroes [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XAMHeros.md)
 - XamBank(Nubank app) [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamBank.md)
 - XamDeals(Groupon app) [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamDeals.md)
-- XamCommBank(CommBank app) [![Build Status](https://img.shields.io/badge/-planned-yellow.svg)](XamCommBank.md)
+- XamCommBank(CommBank app) [![Build Status](https://img.shields.io/badge/-planned-gold.svg)](XamCommBank.md)
 
 
 
