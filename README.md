@@ -25,5 +25,5 @@
 https://www.snppts.dev
 
 
-## License
+
 
