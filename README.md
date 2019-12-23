@@ -15,6 +15,8 @@
 - XamBank(Nubank app) [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamBank.md)
 - XamDeals(Groupon app) [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamDeals.md)
 - XamCommBank(CommBank app) [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamCommBank.md)
+- XamFlights [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamCommBank.md)
+
 
 
 
