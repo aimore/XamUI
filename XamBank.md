@@ -1,44 +1,29 @@
-**XamDeaks (Groupon app) Screens**
+**XamBank (NuBank app) Screens**
 
-- Main Page / Tab page
+- Carousel/Cards view
 
-**iOS**                                                
+**iOS**
 
-
-<img src="https://i.imgur.com/b05bnWP.png" width="240"> 
-
-
- **Android**
- 
- 
-<img src="https://i.imgur.com/U4Ph3aj.png" width="240">
+<img src="https://i.imgur.com/lpVw6EK.png" width="240">
+<img src="https://i.imgur.com/252oryP.png" width="240">
 
 
 
+**Android**
 
-> Custom controls
+<img src="https://i.imgur.com/Pg5FdhN.png" width="240">
 
-   Star rating view
-   Custom entry (no underline)
-   Animated bottom bar icons on selected (iOS only)
+
 
 > Nugets used
+    Xamarin.Forms 4.3.0.947036 
+    CardsView 2.3.6  
 
-    Xamarin.Forms 4.3.0.991211 
-    
-> Issues found
-
-    HotReload on Visual Studio for MAC does not work properly
-    properly.
-    TextDecorations="Strikethrough" on iOS didn't work
-    discrepancy Android startup time Xamarin vs Flutter
-
-> Original design
+> Custom controls
 - Reproducing NuBank app
- https://www.groupon.com.au/mobile
-
+ https://cdn.dribbble.com/users/23708/screenshots/4813428/newapp-gestures.gif
 
 
 > TODO
-- Use Collection view 
-- Bottom bar icon animation for Android
+- Drop down menu
+- Charts
