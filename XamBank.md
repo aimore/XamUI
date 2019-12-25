@@ -19,9 +19,11 @@
     Xamarin.Forms 4.3.0.947036 
     CardsView 2.3.6  
 
-> Custom controls
+> Inspiration
+
 - Reproducing NuBank app
- https://cdn.dribbble.com/users/23708/screenshots/4813428/newapp-gestures.gif
+<img src=" https://cdn.dribbble.com/users/23708/screenshots/4813428/newapp-gestures.gif" width="480"> 
+
 
 
 > TODO
