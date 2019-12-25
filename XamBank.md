@@ -24,8 +24,8 @@
 - Dribble 
 <img src="https://cdn.dribbble.com/users/23708/screenshots/4813428/newapp-gestures.gif" width="480"> 
 
-- https://github.com/felipebaltazar/Xam-Nubank 
-[XAM Nubank by Felipe Baltazar](https://github.com/felipebaltazar)
+- https://github.com/felipebaltazar/Xam-Nubank <br/>
+    [XAM Nubank by Felipe Baltazar](https://github.com/felipebaltazar)
 
 
 > TODO
