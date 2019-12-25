@@ -20,6 +20,7 @@
 
    Star rating view
    Custom entry (no underline)
+   Animated bottom bar icons on selected (iOS only)
 
 > Nugets used
 
@@ -40,3 +41,4 @@
 
 > TODO
 - Use Collection view 
+- Bottom bar icon animation for Android
