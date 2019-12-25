@@ -22,7 +22,7 @@
 > Inspiration
 
 - Reproducing NuBank app
-<img src=" https://cdn.dribbble.com/users/23708/screenshots/4813428/newapp-gestures.gif" width="480"> 
+<img src="https://cdn.dribbble.com/users/23708/screenshots/4813428/newapp-gestures.gif" width="480"> 
 
 
 
