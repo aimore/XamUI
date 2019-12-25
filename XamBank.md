@@ -24,6 +24,8 @@
 - Reproducing NuBank app
 <img src="https://cdn.dribbble.com/users/23708/screenshots/4813428/newapp-gestures.gif" width="480"> 
 
+- https://github.com/felipebaltazar/Xam-Nubank 
+https://github.com/felipebaltazar
 
 
 > TODO
