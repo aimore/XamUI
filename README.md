@@ -16,7 +16,7 @@
 - XamDeals(Groupon app) [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamDeals.md)
 - XamCommBank(CommBank app) [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamCommBank.md)
 - XamFlights [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamFlights.md)
-- XamJackpot [![Build Status](https://img.shields.io/badge/-in%20progress-yellow.svg)](XamFlights.md)
+- XamJackpot [![Build Status](https://img.shields.io/badge/-planned-yellow.svg)](XamFlights.md)
 
 
 
