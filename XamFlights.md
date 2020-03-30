@@ -32,7 +32,7 @@
 The daily updated API on the cases of a new coronavirus disease</a>
 
 > Blockers 👎
-Using gif as XF image seeems to down perfomance, reason I added FFImageloading to the proj
+- Using gif as XF image seeems to down perfomance, reason I added FFImageloading to the proj
 
 
 > Winners 🏆 
