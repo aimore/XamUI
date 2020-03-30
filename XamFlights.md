@@ -3,19 +3,11 @@
 - COVID-19 App
 - Report App
 
-
-<img src=https://i.imgur.com/p4NX3fp.png" width="480"> 
-<img src="https://i.imgur.com/ktk1KsS.png" width="480"> <img src="https://i.imgur.com/lCY2q36.png" width="480"> 
-<img src="https://i.imgur.com/3gqIlOs.png" width="480"> <img src="https://i.imgur.com/2FrUaH1.png" width="480"> 
-
-
-
-
-
-
-
-
-
+<img src="https://i.imgur.com/p4NX3fp.png" width="380">
+<img src=https://i.imgur.com/p4NX3fp.png" width="380"><img src="https://i.imgur.com/2FrUaH1.png" width="380"> 
+<img src="https://i.imgur.com/ktk1KsS.png" width="380"><img src="https://i.imgur.com/lCY2q36.png" width="380">
+                                                                                                             
+                                                                                                             
 > Nugets used 📦
 
     "Xamarin.Forms" Version="4.5.0.495" 
@@ -47,6 +39,6 @@ Using gif as XF image seeems to down perfomance, reason I added FFImageloading t
 
 **Simple animation** 🎉
 
-[![Watch the video](https://i.imgur.com/p4NX3fp.png)](https://vimeo.com/402107393)
+[![Watch the video]](https://vimeo.com/402107393)
 
 
