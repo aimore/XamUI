@@ -4,7 +4,7 @@
 - Report App
 
 <img src="https://i.imgur.com/p4NX3fp.png" width="380">
-<img src=https://i.imgur.com/p4NX3fp.png" width="380"><img src="https://i.imgur.com/2FrUaH1.png" width="380"> 
+<img src="https://i.imgur.com/3gqIlOs.png" width="380"><img src="https://i.imgur.com/2FrUaH1.png" width="380"> 
 <img src="https://i.imgur.com/ktk1KsS.png" width="380"><img src="https://i.imgur.com/lCY2q36.png" width="380">
                                                                                                              
                                                                                                              
