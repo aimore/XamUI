@@ -25,6 +25,7 @@
 > Custom controls 🔧
 
 - NavigationPage renderer
+- Skia Animated Gauge 
 
 > Useful links 💡
 
