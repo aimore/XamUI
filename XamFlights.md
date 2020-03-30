@@ -36,7 +36,10 @@ Using gif as XF image seeems to down perfomance, reason I added FFImageloading t
 
 
 > Winners 🏆 
-Using gif as XF image seeems to down perfomance, reason I added FFImageloading to the proj
+
+- PancakeView
+- Skia sharp
+- Microcharts
 
 **Simple animation** 🎉
 
