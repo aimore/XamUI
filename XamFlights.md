@@ -1,9 +1,11 @@
 **XamFlight Screens**
 
-  -Android
+-Android
+
   <img src="https://i.imgur.com/6BVeOCd.png" width="420">
 
- -iOS
+-iOS
+
  <img src="https://i.imgur.com/UrZVNR4.png" width="420">
  <img src="https://i.imgur.com/SSk1twU.png" width="420">
 
