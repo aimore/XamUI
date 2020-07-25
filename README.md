@@ -17,7 +17,7 @@
 - XamCommBank(CommBank app) [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamCommBank.md)
 - XamFlights [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamFlights.md)
 - XamDemic (COVID-19 report app) [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamDemic.md)
-- XamFB (Facebook App) [![Build Status](https://img.shields.io/badge/-planned-yellow.svg)](XamFB.md)
+- XamFB (Facebook App) [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamFB.md)
 
 
 
