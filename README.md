@@ -21,8 +21,7 @@
 
 
 **Templates**
-
-- Login  [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamQuiz.md)
+- XAMTemplates [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamFB.md)
 
 
 ### Contribute
