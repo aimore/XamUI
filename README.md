@@ -20,8 +20,9 @@
 - XamFB (Facebook App) [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamFB.md)
 
 
+**Templates**
 
-
+- Login  [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamQuiz.md)
 
 
 ### Contribute
