@@ -41,6 +41,14 @@
 
 <img src="https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV7-2.png" width="200">
 
+<img src="https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV9.png" width="200">
+
+<img src="https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV10.png" width="200">
+
+<img src="https://github.com/aimore/XamUI/blob/master/Screenshots/v10.gif" width="200">
+
+
+
 
 a
 a
