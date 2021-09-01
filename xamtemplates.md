@@ -39,7 +39,7 @@
 
  <img src="https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV7.png" width="200">
 
-<img src="https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV8.png" width="200">
+<img src="https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV7-2.png" width="200">
 
 
 a
