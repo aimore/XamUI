@@ -21,7 +21,7 @@
 
 
 **Templates**
-- XAMTemplates [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](XamFB.md)
+- XAMTemplates [![Build Status](https://img.shields.io/badge/-in%20progress-blue.svg)](xamtemplates.md)
 
 
 ### Contribute
