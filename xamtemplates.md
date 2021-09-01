@@ -25,14 +25,23 @@
 
 # Login
 
-https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV1.png
-https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV2.png
-https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV3.png
-https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV4.png
-https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV5.png
-https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV6.png
-https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV7.png
-https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV8.png
+<img src="https://i.imgur.com/StLPujv.jpg" width="200"> <img src="https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV1.png" width="200">
+
+<img src="https://i.imgur.com/StLPujv.jpg" width="200"> <img src="https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV2.png" width="200">
+
+<img src="https://i.imgur.com/StLPujv.jpg" width="200"> <img src="https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV3.png" width="200">
+
+<img src="https://i.imgur.com/StLPujv.jpg" width="200"> <img src="https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV4.png" width="200">
+
+<img src="https://i.imgur.com/StLPujv.jpg" width="200"> <img src="https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV5.png" width="200">
+
+<img src="https://i.imgur.com/StLPujv.jpg" width="200"> <img src="https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV6.png" width="200">
+
+<img src="https://i.imgur.com/StLPujv.jpg" width="200"> <img src="https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV7.png" width="200">
+
+<img src="https://i.imgur.com/StLPujv.jpg" width="200"> <img src="https://github.com/aimore/XamUI/blob/master/Screenshots/LoginV8.png" width="200">
+
+
 a
 a
 a
